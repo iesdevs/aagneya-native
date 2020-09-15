@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_round_dashboard_24"
+        android:title="@string/title_leaderBoard" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_round_event_note_24"
+        android:title="@string/title_calender" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_round_sports_volleyball_24"
+        android:title="@string/title_events" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_round_account_circle_24"
+        android:title="@string/title_profile"
+        />
+
+</menu>

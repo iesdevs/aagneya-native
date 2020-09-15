@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_fra"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/profile_frame" >
+
+    <View
+        android:id="@+id/profile_wal"
+        android:layout_width="411dp"
+        android:layout_height="240dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/profile_wall"
+        android:elevation="4dp" />
+
+    <View
+        android:id="@+id/profile_pic"
+        android:layout_width="200.53dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/profile_pic"
+        android:elevation="20dp" />
+
+    <LinearLayout
+        android:id="@+id/frame_32"
+        android:layout_width="346dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/info_inbox"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/info_profile"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_round_info_24" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="274dp"/>
+
+        <Button
+            android:id="@+id/notify_profile"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_round_notifications_24" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/name_rect"
+        android:layout_width="334dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/name_rect"
+        android:elevation="4dp" />
+
+    <View
+        android:id="@+id/reg_rect"
+        android:layout_width="334dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="371dp"
+        android:background="@drawable/reg_rect"
+        android:elevation="4dp"
+        />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="293dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:elevation="6dp"
+        android:layout_marginTop="293dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/jovial"
+        android:textAppearance="@style/jovial"/>
+
+    <TextView
+        android:id="@+id/ies20cs020"
+        android:layout_width="293dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="61dp"
+        android:elevation="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="380dp"
+        android:text="@string/ies20cs020"
+        android:textAppearance="@style/ies20cs020"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <RelativeLayout
+        android:id="@+id/score_layout"
+        android:layout_width="334dp"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="458dp"
+        android:background="@drawable/scroll_layout">
+
+        <View
+            android:id="@+id/events_rect"
+            android:layout_width="180dp"
+            android:layout_height="208dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/events_rect"
+            android:elevation="4dp" />
+
+        <TextView
+            android:id="@+id/events"
+            android:layout_width="141dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/events"
+            android:elevation="6dp"
+            android:textAppearance="@style/events"
+            android:gravity="center_horizontal|center_vertical" />
+
+        <TextView
+            android:id="@+id/on_stage"
+            android:layout_width="141dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="20dp"
+            android:elevation="6dp"
+            android:layout_marginTop="47dp"
+            android:text="@string/on_stage"
+            android:textAppearance="@style/on_stage"
+            android:gravity="center_horizontal|top" />
+
+        <TextView
+            android:id="@+id/off_stage"
+            android:layout_width="141dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="19dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="126dp"
+            android:text="@string/off_stage"
+            android:elevation="6dp"
+            android:textAppearance="@style/off_stage"
+            android:gravity="center_horizontal|top"
+            />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="204dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/score"
+            android:elevation="6dp"
+            android:textAppearance="@style/score"
+            android:gravity="center_horizontal|center_vertical" />
+
+        <TextView
+            android:id="@+id/prs_score"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="204dp"
+            android:layout_alignParentTop="true"
+            android:elevation="6dp"
+            android:layout_marginTop="54dp"
+            android:text="@string/prs_score"
+            android:textAppearance="@style/prs_score"
+            android:gravity="center_horizontal|center_vertical" />
+    </RelativeLayout>
+
+</RelativeLayout>

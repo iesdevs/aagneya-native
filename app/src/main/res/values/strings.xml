@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Aagneya</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_leaderBoard">Leader Board</string>
+    <string name="title_calender">Calendar</string>
+    <string name="title_events">Events</string>
+    <string name="title_profile">Profile</string>
+    <string name="jovial">Jovial Joe Jayarson</string>
+    <string name="ies20cs020">IES20CS020</string>
+    <string name="events">Events</string>
+    <string name="on_stage">On Stage</string>
+    <string name="off_stage">Off Stage</string>
+    <string name="score">Score</string>
+    <string name="prs_score">32</string>
+</resources>
